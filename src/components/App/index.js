@@ -21,7 +21,7 @@ const DoctorSelect = styled.img`
   position: absolute;
   width: 140px;
   height: 140px;
-  left: 20%;
+  left: 18%;
   top: 85%;
   cursor: pointer;
 `;
@@ -29,7 +29,7 @@ const PatientSelect = styled.img`
   position: absolute;
   width: 140px;
   height: 140px;
-  left: 10%;
+  left: 8%;
   top: 85%;
   cursor: pointer;
 `;

@@ -100,9 +100,10 @@ const ProfileContainer = styled.div`
 
 const Body_P = styled.p`
   color: black;
-  font-size: 16px;
+  font-size: 18px;
   margin: 10px;
   margin-top: 20px;
+  margin-bottom: 0px;
 `;
 
 const P = styled.p`
@@ -189,6 +190,13 @@ class ProfileRows extends Component {
   }
 }
 
+const Doc_P = styled.p`
+  width: 100%;
+  text-align: center;
+  color: dodgerblue;
+  font-weight: bold;
+  font-size: 22px;
+`;
 class DoctorRows extends Component {
   render() {
     return (
@@ -199,9 +207,9 @@ class DoctorRows extends Component {
             <P green>crista-lee/entire-history</P>
           </li>
         ) : (
-          <p onClick={() => this.props.sendRequest("doctor")}>
+          <Doc_P onClick={() => this.props.sendRequest("doctor")}>
             Send new request
-          </p>
+          </Doc_P>
         )}
       </ul>
     );
