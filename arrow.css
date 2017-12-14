@@ -53,7 +53,7 @@
 @-webkit-keyframes arrow-movement-up {
   0% {
     opacity: 0;
-    top: 80%;
+    top: 76%;
   }
   70% {
     opacity: 1;
@@ -66,7 +66,7 @@
 @keyframes arrow-movement-up {
   0% {
     opacity: 0;
-    top: 80%;
+    top: 76%;
   }
   70% {
     opacity: 1;
