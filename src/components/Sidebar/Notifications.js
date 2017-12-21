@@ -12,13 +12,12 @@ const Wrapper = styled.div`
   h1 {
     padding: 10px;
     color: dodgerblue;
+    font-size: 1.5em;
   }
 `;
 
 const AcceptButt = styled.div`
-  /* float: right; */
-
-  width: 65px;
+  width: 15%;
   height: 40px;
   margin-right: 40px;
   border-radius: 10px;

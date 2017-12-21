@@ -16,9 +16,10 @@ import Notifications from "./Notifications";
 const Wrapper = styled.div`
   display: block;
   background: lightgrey;
-  width: 460px;
-  height: 820px;
-  margin: 70px 20px;
+  width: 90%;
+  height: 85%;
+  margin-top: 20%;
+  margin-left: 5%;
   border-radius: 3px;
   color: #aaa;
   position: absolute;
@@ -43,16 +44,17 @@ const InnerHeaderTop = styled.div`
 
 const Burger = styled.img`
   flex: 0.5;
-  padding: 30px;
-  width: 40px;
+  height: 2.5em;
+  width: 2.5em;
+  width: 6%;
+  padding: 5%;
 `;
 
 const Title = styled.h1`
-  font-size: 36px;
+  font-size: 2.5em;
   margin: 0px;
-  margin-left: -45px;
-  padding-top: 18px;
   color: white;
+  padding: 5%;
   flex: 8;
   text-align: center;
 `;
@@ -72,17 +74,10 @@ const InnerHeaderBtm = styled.div`
     display: block;
     flex: 0 1 auto; /* Default */
     list-style-type: none;
-    font-size: 18px;
+    font-size: 1.25em;
     color: white;
     padding: 5px;
   }
-`;
-
-const Intro = styled.div`
-  flex: 3;
-  background: white;
-  display: flex;
-  border-bottom: 1px solid black;
 `;
 
 const InnerIntroOne = styled.div`
@@ -116,21 +111,9 @@ const InnerIntroThree = styled.div`
   flex: 5;
 `;
 
-const CalIcon = styled.img`
-  margin-top: 110px;
-  margin-right: 20px;
-`;
-const RxIcon = styled.img`
-  margin-top: 110px;
-  margin-right: 20px;
-`;
-const InfoIcon = styled.img`
-  margin-top: 110px;
-`;
-
 const Body = styled.div`
   flex: 9;
-  background: white;
+  /* background: white; */
 `;
 
 const ProfileContainer = styled.div`

@@ -44,9 +44,9 @@ const r_t_up = css`
 export default styled.div`
   opacity: 0;
   position: absolute;
-  left: calc(50% - 15px);
+  left: calc(50% - 1.125em);
   top: ${props =>
-    props.down ? `17%` : props.r_up ? `17%` : props.r_down ? `74%` : `74%`};
+    props.down ? `15%` : props.r_up ? `15%` : props.r_down ? `74%` : `74%`};
 
   ${props => props.first && props.down && `${first}`};
   ${props => props.second && props.down && `${second}`};
@@ -69,7 +69,7 @@ export default styled.div`
     position: absolute;
     top: 0;
     left: 0;
-    width: 30px;
+    width: 2.25em;
   }
   ${props =>
     (props.up || props.r_up) &&

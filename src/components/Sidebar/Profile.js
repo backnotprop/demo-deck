@@ -12,16 +12,19 @@ import prof_icon from "../../assets/profile_item.png";
 
 const Wrapper = styled.div`
   flex: 12;
-  background: red;
   display: flex;
   flex-direction: column;
+  background: white;
 `;
 
 const Intro = styled.div`
-  flex: 3;
-  background: white;
+  flex: 4;
   display: flex;
   border-bottom: 1px solid black;
+`;
+
+const Body = styled.div`
+  flex: 12;
 `;
 
 const InnerIntroOne = styled.div`
@@ -29,16 +32,18 @@ const InnerIntroOne = styled.div`
 `;
 
 const PIcon = styled.img`
-  width: 86%;
-  margin-left: 7%;
-  margin-top: 25px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10px;
 `;
 
 const InnerIntroTwo = styled.div`
   flex: 3.5;
 
   h1 {
-    font-size: 32px;
+    margin: 0;
+    font-size: 2em;
+    margin-top: 10px;
     font-weight: bold;
     color: black;
     margin-bottom: 0;
@@ -46,7 +51,7 @@ const InnerIntroTwo = styled.div`
   h2 {
     margin-top: 0;
     color: grey;
-    font-size: 28px;
+    font-size: 1.5em;
     font-weight: 400;
   }
 `;
@@ -56,32 +61,30 @@ const InnerIntroThree = styled.div`
 `;
 
 const CalIcon = styled.img`
-  margin-top: 110px;
-  margin-right: 10px;
+  margin-top: 50%;
   float: right;
+  width: 25%;
+  height: 25%;
+  margin-right: 10px;
 `;
 const RxIcon = styled.img`
-  margin-top: 110px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-top: 50%;
   float: right;
+  width: 20%;
+  height: 30%;
+  margin-right: 10px;
 `;
 const InfoIcon = styled.img`
-  margin-top: 110px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-top: 50%;
   float: right;
-`;
-
-const Body = styled.div`
-  flex: 9;
-  background: white;
+  width: 25%;
+  height: 30%;
+  margin-right: 10px;
 `;
 
 const ProfileContainer = styled.div`
-  background: white;
   border: 1px solid black;
-  width: 86%;
+  /* width: 86%; */
   height: 80%;
   margin: 7%;
   ul {
@@ -100,29 +103,29 @@ const ProfileContainer = styled.div`
 
 const Body_P = styled.p`
   color: black;
-  font-size: 18px;
+  font-size: 1.1em;
   margin: 10px;
-  margin-top: 20px;
   margin-bottom: 0px;
 `;
 
 const P = styled.p`
   display: inline-block;
-  font-size: 18px;
+  font-size: 1.25em;
   margin-left: 15px;
-  color: black;
   vertical-align: middle;
   font-weight: bold;
   color: mediumblue;
   ${props =>
     props.green &&
     css`
-      font-size: 20px;
+      font-size: 1.5em;
       color: green;
     `};
 `;
 
-const ProfileIcon = styled.img``;
+const ProfileIcon = styled.img`
+  width: 10%;
+`;
 
 class Profile extends Component {
   render() {

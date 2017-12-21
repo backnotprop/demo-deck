@@ -191,108 +191,108 @@ class Workzone extends Component {
           <Line
             step={step}
             x1="20%"
-            y1="310"
+            y1="25%"
             x2="50%"
-            y2="310"
+            y2="25%"
             id="top_left_conn_line"
             type={userIteraction}
           />
           <Line
             step={step}
             x1="50%"
-            y1="310"
+            y1="25%"
             x2="80%"
-            y2="310"
+            y2="25%"
             id="top_right_conn_line"
             type={userIteraction}
           />
           <Line
             step={step}
             x1="80%"
-            y1="310"
+            y1="25%"
             x2="80%"
-            y2="550"
+            y2="45%"
             id="middle_right_down_line"
             type={userIteraction}
           />
           <Line
             step={step}
             x1="20%"
-            y1="310"
+            y1="25%"
             x2="20%"
-            y2="550"
+            y2="45%"
             id="middle_left_down_line"
             type={userIteraction}
           />
           <Line
             step={step}
             x1="50%"
-            y1="310"
+            y1="25%"
             x2="50%"
-            y2="550"
+            y2="45%"
             id="middle_middle_down_line"
             type={userIteraction}
           />
           <Line
             step={step}
             x1="50%"
-            y1="550"
+            y1="45%"
             x2="80%"
-            y2="550"
+            y2="45%"
             id="middle_right_conn_line"
             type={userIteraction}
           />
           <Line
             step={step}
             x1="20%"
-            y1="550"
+            y1="45%"
             x2="50%"
-            y2="550"
+            y2="45%"
             id="middle_left_conn_line"
             type={userIteraction}
           />
           <Line
             step={step}
             x1="80%"
-            y1="550"
+            y1="45%"
             x2="80%"
-            y2="790"
+            y2="65%"
             id="bottom_right_down_line"
             type={userIteraction}
           />
           <Line
             step={step}
             x1="20%"
-            y1="550"
+            y1="45%"
             x2="20%"
-            y2="790"
+            y2="65%"
             id="bottom_left_down_line"
             type={userIteraction}
           />
           <Line
             step={step}
             x1="50%"
-            y1="550"
+            y1="45%"
             x2="50%"
-            y2="790"
+            y2="65%"
             id="bottom_middle_down_line"
             type={userIteraction}
           />
           <Line
             step={step}
             x1="50%"
-            y1="790"
+            y1="65%"
             x2="80%"
-            y2="790"
+            y2="65%"
             id="bottom_right_conn_line"
             type={userIteraction}
           />
           <Line
             step={step}
             x1="20%"
-            y1="790"
+            y1="65%"
             x2="50%"
-            y2="790"
+            y2="65%"
             id="bottom_left_conn_line"
             type={userIteraction}
           />

@@ -12,25 +12,25 @@ const Wrapper = styled.div`
 `;
 
 const Hwrap = styled.li`
-  flex: 12;
+  flex: 14;
   text-align: right;
 `;
 const Dwrap = styled.li`
   flex: 1;
-  margin-top: 25px;
   text-align: left;
 `;
 const Htree = styled.img`
-  height: 40%;
-  margin-top: 25px;
-  width: 250px;
+  height: 50%;
+  width: 14%;
   margin-right: 20px;
+  margin-top: 15px;
 `;
 
 const Ds = styled.img`
   height: 60%;
-  width: 80px;
+  width: 50%;
   margin-left: 20px;
+  margin-top: 15px;
 `;
 
 class Header extends Component {

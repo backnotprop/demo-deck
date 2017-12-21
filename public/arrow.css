@@ -1,7 +1,7 @@
 @-webkit-keyframes arrow-movement {
   0% {
     opacity: 0;
-    top: 15%;
+    top: 13%;
   }
   70% {
     opacity: 1;
@@ -14,7 +14,7 @@
 @keyframes arrow-movement {
   0% {
     opacity: 0;
-    top: 15%;
+    top: 13%;
   }
   70% {
     opacity: 1;
@@ -79,7 +79,7 @@
 @-webkit-keyframes arrow-movement-up-r {
   0% {
     opacity: 0;
-    top: 19%;
+    top: 17%;
   }
   70% {
     opacity: 1;
@@ -92,7 +92,7 @@
 @keyframes arrow-movement-up-r {
   0% {
     opacity: 0;
-    top: 19%;
+    top: 17%;
   }
   70% {
     opacity: 1;
