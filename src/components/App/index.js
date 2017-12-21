@@ -63,7 +63,7 @@ class App extends Component {
     patientSending: false,
     reset: false,
     note: "Go to doctor profile, and click 'send new request'",
-    note2: ""
+    note2: "Click his profile button"
   };
 
   sendRequest(type) {
@@ -77,7 +77,8 @@ class App extends Component {
         doctorNots: 1,
         reset: false,
         note: "Wait for the new processing",
-        note2: "Afterwards go and see that the doctor has her profile"
+        note2:
+          "After, go & see that the doctor has her profile (click his icon, then profiles)"
       });
     } else {
       this.setState({
