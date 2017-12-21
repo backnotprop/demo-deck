@@ -86,7 +86,7 @@ class App extends Component {
         doctorSending: true,
         docSent: true,
         reset: false,
-        note: `Wait for the processing to finish`,
+        note: `Wait for the processing to finish (all green)`,
         note2: `then go to the user profile, click notifications, and accept`
       });
     }
